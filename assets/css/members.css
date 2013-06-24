@@ -1,0 +1,196 @@
+body {
+	background: url(../images/portal/back_pattern.jpg);
+	font: 14px Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
+	line-height: 1.6em;
+	color: #423a3a;
+}
+
+a { text-decoration: none; }
+
+.clear {clear:both;}
+
+.wrapper { background: url(../images/portal/main_content.jpg) repeat-x; }
+
+.main_container, .footer { margin: 0 auto; width: 960px; }
+#footer a {
+    color: #7a7777;
+    text-decoration: none;
+}
+
+#footer p {
+    text-align: center;
+}
+
+#top_header { background: url(../images/portal/logo_bck.png) no-repeat; height: 150px; }
+
+.logo { float: left; padding-top: 60px; padding-left: 85px; }
+
+.logo h1 a {text-indent: -9999px; display: block; background: url(../images/portal/logo.png) no-repeat; width: 230px; height: 33px; }
+/**********************
+Login Form Styling
+**********************/
+.system-info { float: right; margin-top: 40px; background: url(../images/portal/system.png) no-repeat top right; width: 379px; height: 33px; }
+.system-info h4 { float: right; margin-top: 50px; color: #787878; font-size: 18px; }
+
+#login-bg { margin: 90px 0 0 320px; padding: 40px 70px; background: url(../images/portal/login-bg.png) repeat-x top left; border: 1px solid #d1d1d1; width: 250px; height: 190px; border-radius: 10px; }
+
+.login-content h1 { margin-left: 40px; padding-bottom: 20px; font: 18px Tahoma, Geneva, sans-serif; color: #939797; }
+
+input {    padding: 9px; border: solid 1px #E5E5E5; outline: 0; font: normal 13px/100% Verdana, Tahoma, sans-serif; width: 200px;  background: #fff; }
+
+input {
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    }
+	
+.submit input {
+    width: 85px;
+	margin-left: 40px;
+    padding: 9px 15px;
+    background: #5b554a;
+    border: 0;
+    font-size: 14px;
+    color: #fff;
+	border-radius: 3px;
+    }
+
+.member { float: right; width: 263px; background: url(../images/portal/member.jpg) no-repeat; height: 150px; margin-right: 120px; }
+.member span { padding-left: 5px; color: #c6a822; }
+p.welcome { color: #fff; font-size: 14px; padding: 10px 0px 0px 20px; } 
+p.login {float: left; width: 170px; margin-left: 20px; font: 12px Tahoma, Geneva, sans-serif; color: #816e70; }
+
+a.logout { margin-left: 20px; padding: 10px 20px 0 0; font: 18px Tahoma, Geneva, sans-serif; color: #d6bd8a; }
+
+.down_header { float: left; background: url(../images/portal/shadow.png) no-repeat top center;margin-top: -45px; width: 960px; height: 112px; }
+
+ul.navigation { float: left; background: url(../images/portal/nav_bg.jpg) repeat-x top left; margin:  20px 0 22px 65px; width: 805px; height: 45px;  padding:5px 0; /*-moz-border-radius: 10px; -webkit-border-radius: 10px; */border-radius: 10px; }
+ul.navigation li { display: inline; text-indent: 50px; padding-left: 30px;  }
+ul.navigation li a { display: inline-block; font: 18px Tahoma, Geneva, sans-serif; color: #b8b8b8; }
+a.dashboard { background: url(../images/portal/dashboard.png) no-repeat top left; height: 35px; }
+a.settings { background: url(../images/portal/settings.png) no-repeat top left; height: 38px;  }
+a.privileges { background: url(../images/portal/privileges.png) no-repeat top left; height: 34px; }
+a.reports { background: url(../assets/images/portal/reports.png) no-repeat top left; height: 24px; margin-bottom: 10px; }
+/*a.dashboard:hover, a.settings:hover, a.privileges:hover, a.reports:hover  { background-position: 0px -45px; }*/
+
+#content_works { float: left; margin-left: 75px; }
+
+.box { float: left; margin: 0 30px 40px 0; background: url(../images/portal/snippet-bg.jpg) repeat-x top left; width: 130px; height: 76px; border: 1px solid #dadada; }
+.box p a { font: 14px Tahoma, Geneva, sans-serif; color: #a9a2a2; }
+
+.calendar { padding: 15px 0 0 0px; }
+.calendar span { padding-left: 40px; }
+.calendar p a { padding-left: 40px; }
+
+.uploads { padding: 5px 0 10px 0px; }
+.uploads span { padding-left: 42px; }
+.uploads p a { padding-left: 42px; }
+
+.products { padding: 5px 0 10px 0px; }
+.products span { padding-left: 42px; }
+.products p a { padding-left: 42px; }
+
+.category { padding: 5px 0 10px 0px; }
+.category span { padding-left: 42px; }
+.category p a { padding-left: 42px; }
+
+.blog { padding: 5px 0 10px 0px; }
+.blog span { padding-left: 42px; }
+.blog p a { padding-left: 42px; }
+
+.news { padding: 5px 0 10px 0px; }
+.news span { padding-left: 42px; }
+.news p a { padding-left: 42px; }
+
+.clients { padding: 2px 0 13px 0px; }
+.clients span { padding-left: 40px; }
+.clients p a { padding-left: 42px; }
+
+.documents { padding: 5px 0 10px 0px; }
+.documents span { padding-left: 42px; }
+.documents p a { padding-left: 32px; }
+
+.historical-trends { padding: 15px 0 0 0px; }
+.historical-trends span { padding-left: 34px; }
+.historical-trends p a { padding-left: 15px; }
+
+.users { padding: 15px 0 0 0px; }
+.users span { padding-left: 40px; }
+.users p a { padding-left: 44px; }
+
+.saved-reports { padding: 5px 0 10px 0px; }
+.saved-reports span { padding-left: 42px; }
+.saved-reports p a { padding-left: 24px; }
+
+.notes { padding: 2px 0 13px 0px; }
+.notes span { padding-left: 38px; }
+.notes p a { padding-left: 44px; }
+
+.manual { padding: 5px 0 10px 0px; }
+.manual span { padding-left: 42px; }
+.manual p a { padding-left: 44px; }
+
+.faq { padding: 15px 0 0 0px; }
+.faq span { padding-left: 40px; }
+.faq p a { padding-left: 52px; }
+
+#queue-stats { float: left; margin: 0 0 40px 75px; }
+.graphs { float: left; background: url(../images/portal/graph-bg.jpg) repeat-x top left; border: 1px solid #f0f0f0; width: 547px; height: 303px; }
+.graphs h1 { font: 18px Tahoma, Geneva, sans-serif; color: #a9a2a2; text-align: center; padding: 5px 0; }
+
+.stats {  float: left; width: 205px; margin-left: 100px; background: url(../images/portal/stats-bg.jpg) repeat-x top left; border: 1px solid #f0f0f0; }
+.stats h1 { margin-left: 20px; padding: 5px 0; font: 18px Tahoma, Geneva, sans-serif; color: #a9a2a2; }
+
+ul.stats-list { margin: 0 10px; }
+ul.stats-list li { padding: 10px 0 5px 0; border-bottom: 3px solid #e8e8e8; font: 12px Tahoma, Geneva, sans-serif; }
+ul.stats-list li:last-child { border-bottom: none; }
+ul.stats-list span { float: right; }
+
+#queue-info-slider { float: left; width: 800px; height: 218px; margin-left: 75px; background: url(../images/portal/queue-info-bg.jpg) repeat-x top left; border: 1px solid #dadada; }
+#queue-info-slider h1 { padding: 10px; font: 18px Tahoma, Geneva, sans-serif; color: #a9a2a2; text-align: center; }
+
+ul.data { float: left; margin: 15px 0 0 90px; }
+ul.data li { padding-right: 50px; display: inline; }
+a.left { float: left; width: 50px; margin: 50px 0 0 20px; }
+a.right { float: right; margin: 50px 25px 0 0; width: 50px; }
+
+/**********************
+Members Area Form Styling
+**********************/
+
+#dialog {
+        background: #e3e3e3;
+        padding: 1em 2em;
+        position: relative;
+    }
+
+    .js #dialog {
+        position: absolute;
+        top: 100px;
+        width: 600px;
+        display: none;
+    }
+
+    #dialog h2 { margin-top: 0;}
+
+    #dialog ul { padding: 0;}
+
+    #dialog li {
+        list-style: none;
+        margin-bottom: 1em;
+    }
+
+    /* Close button on form */
+    .close {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-weight: bold;
+        font-family: sans-serif;
+        cursor: pointer;
+    }
+
+    /* Form inputs */
+    .box input, .box textarea { width: 100%; line-height: 2em;}
+    .box input[type=submit] { width: auto;}
+    .box label { display: block; text-align: left;}
